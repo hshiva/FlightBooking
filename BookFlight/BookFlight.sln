@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingClient", "Flig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelRepublic.FlightCodingTest", "..\TravelRepublic.FlightCodingTest\TravelRepublic.FlightCodingTest.csproj", "{B064FE44-E430-472A-81E3-90D0A80EA112}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookFlight.AppService", "BookFlight.AppService\BookFlight.AppService.csproj", "{37AB6641-26B1-46B5-A929-236CAFD17E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookFlight.Core.AppService", "BookFlight.Core.AppService\BookFlight.Core.AppService.csproj", "{F44700AF-1ABA-4AD2-A128-A4E566850C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.Core.InfraStructure", "FlightService.Core.InfraStructure\FlightService.Core.InfraStructure.csproj", "{78C06046-7903-4FBC-A88F-F91582B17BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.InfraStructure", "FlightService.InfraStructure\FlightService.InfraStructure.csproj", "{1F2F0000-2D78-48B2-9BF3-C6A6827056C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models.FlightInformation", "Models.FlightInformation\Models.FlightInformation.csproj", "{F12BFC81-13CE-42E3-86AE-5DA89159AE08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,26 @@ Global
 		{B064FE44-E430-472A-81E3-90D0A80EA112}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B064FE44-E430-472A-81E3-90D0A80EA112}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B064FE44-E430-472A-81E3-90D0A80EA112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AB6641-26B1-46B5-A929-236CAFD17E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AB6641-26B1-46B5-A929-236CAFD17E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AB6641-26B1-46B5-A929-236CAFD17E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AB6641-26B1-46B5-A929-236CAFD17E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44700AF-1ABA-4AD2-A128-A4E566850C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44700AF-1ABA-4AD2-A128-A4E566850C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44700AF-1ABA-4AD2-A128-A4E566850C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44700AF-1ABA-4AD2-A128-A4E566850C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C06046-7903-4FBC-A88F-F91582B17BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C06046-7903-4FBC-A88F-F91582B17BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C06046-7903-4FBC-A88F-F91582B17BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C06046-7903-4FBC-A88F-F91582B17BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2F0000-2D78-48B2-9BF3-C6A6827056C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2F0000-2D78-48B2-9BF3-C6A6827056C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2F0000-2D78-48B2-9BF3-C6A6827056C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2F0000-2D78-48B2-9BF3-C6A6827056C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12BFC81-13CE-42E3-86AE-5DA89159AE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12BFC81-13CE-42E3-86AE-5DA89159AE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12BFC81-13CE-42E3-86AE-5DA89159AE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12BFC81-13CE-42E3-86AE-5DA89159AE08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

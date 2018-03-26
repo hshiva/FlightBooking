@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Models.FlightInformation;
 
 namespace TravelRepublic.FlightCodingTest
 {
@@ -16,9 +17,9 @@ namespace TravelRepublic.FlightCodingTest
 
         public static FlightBuilder GetIntance => Intance.Value;
 
-        public IList<Flight> GetFlights()
+        public List<FlightInformation.Flight> GetFlights()
         {
-            return new List<Flight>
+            return new List<FlightInformation.Flight>
             {
                      //A normal flight with two hour duration
                      CreateFlight(_threeDaysFromNow, _threeDaysFromNow.AddHours(2)),
@@ -53,7 +54,7 @@ namespace TravelRepublic.FlightCodingTest
              };
         }
 
-        private static Flight CreateFlight(params DateTime[] dates)
+        private static FlightInformation.Flight CreateFlight(params DateTime[] dates)
         {
             if (dates.Length % 2 != 0) throw new ArgumentException($"You must pass an even number of dates,{dates}");
 
@@ -62,21 +63,12 @@ namespace TravelRepublic.FlightCodingTest
 
             var segments = departureDates.Zip(arrivalDates,
                                               (departureDate, arrivalDate) =>
-                                              new Segment { DepartureDate = departureDate, ArrivalDate = arrivalDate }).ToList();
+                                              new FlightInformation.Segment { DepartureDate = departureDate, ArrivalDate = arrivalDate }).ToList();
 
-            return new Flight { Segments = segments };
+            return new FlightInformation.Flight { Segments = segments };
         }
     }
 
-    public class Flight
-    {
-        public IList<Segment> Segments { get; set; }
-    }
-
-    public class Segment
-    {
-        public DateTime? DepartureDate { get; set; }
-        public DateTime? ArrivalDate { get; set; }
-    }
+   
 }
 

@@ -1,0 +1,7 @@
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\bin\Debug\BookFlight.Core.AppService.dll
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\bin\Debug\BookFlight.Core.AppService.pdb
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\obj\Debug\BookFlight.Core.AppService.csprojResolveAssemblyReference.cache
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\obj\Debug\BookFlight.Core.AppService.dll
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\obj\Debug\BookFlight.Core.AppService.pdb
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\bin\Debug\Models.FlightInformation.dll
+E:\projects\FlightBooking\BookFlight\BookFlight.Core.AppService\bin\Debug\Models.FlightInformation.pdb

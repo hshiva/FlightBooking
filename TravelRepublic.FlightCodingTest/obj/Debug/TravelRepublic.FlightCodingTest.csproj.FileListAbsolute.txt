@@ -3,3 +3,10 @@ E:\projects\TravelRepublic.FlightCodingTest\bin\Debug\TravelRepublic.FlightCodin
 E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.dll
 E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.pdb
 E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.csprojResolveAssemblyReference.cache
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\bin\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\bin\Debug\TravelRepublic.FlightCodingTest.pdb
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\bin\Debug\Models.FlightInformation.dll
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\bin\Debug\Models.FlightInformation.pdb
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.csprojResolveAssemblyReference.cache
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\FlightBooking\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.pdb

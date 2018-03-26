@@ -1,0 +1,9 @@
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\FlightService.Core.InfraStructure.dll
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\FlightService.Core.InfraStructure.pdb
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\Models.FlightInformation.dll
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\TravelRepublic.FlightCodingTest.pdb
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\bin\Debug\Models.FlightInformation.pdb
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\obj\Debug\FlightService.Core.InfraStructure.csprojResolveAssemblyReference.cache
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\obj\Debug\FlightService.Core.InfraStructure.dll
+E:\projects\FlightBooking\BookFlight\FlightService.Core.InfraStructure\obj\Debug\FlightService.Core.InfraStructure.pdb

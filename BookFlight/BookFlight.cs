@@ -1,5 +1,8 @@
 ﻿using System;
-using TravelRepublic.FlightCodingTest;
+using BookFlight.AppService;
+using BookFlight.Core.AppService;
+using FlightService.Core.InfraStructure;
+using Unity;
 
 namespace BookFlight
 {
@@ -12,10 +15,17 @@ namespace BookFlight
             //Book Flight
         }
 
+
         private static void GetFlightDetails()
         {
-            FlightBuilder filghtInfo = FlightBuilder.GetIntance;
-            var flightDetails = filghtInfo.GetFlights();
+            // we can move the dependency injection code into startup file or some common place 
+            IUnityContainer unity = new UnityContainer();
+            unity.RegisterType<IFlightAppService, FlightAppService>();
+            unity.RegisterType<IFlightService, FlightService.InfraStructure.FlightService>();
+            var appService = unity.Resolve<FlightAppService>();
+
+            var flightDetails = appService.GetFlightDetails();
+
             foreach (var flight in flightDetails)
             {
                 foreach (var segments in flight.Segments)

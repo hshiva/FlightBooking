@@ -43,6 +43,12 @@
     <Compile Include="FlightBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookFlight\Models.FlightInformation\Models.FlightInformation.csproj">
+      <Project>{f12bfc81-13ce-42e3-86ae-5da89159ae08}</Project>
+      <Name>Models.FlightInformation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
