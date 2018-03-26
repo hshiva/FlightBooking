@@ -10,19 +10,20 @@ namespace BookFlight
     {
         static void Main()
         {
-            GetFlightDetails();
+            IUnityContainer unity = new UnityContainer();
+            unity.RegisterType<IFlightAppService, FlightAppService>();
+            unity.RegisterType<IFlightService, FlightService.InfraStructure.FlightService>();
+            var appService = unity.Resolve<FlightAppService>();
+            
+            //Get flight info
+            GetFlightDetails(appService);
             //TODO
             //Book Flight
         }
 
 
-        private static void GetFlightDetails()
+        private static void GetFlightDetails(IFlightAppService appService)
         {
-            // we can move the dependency injection code into startup file or some common place 
-            IUnityContainer unity = new UnityContainer();
-            unity.RegisterType<IFlightAppService, FlightAppService>();
-            unity.RegisterType<IFlightService, FlightService.InfraStructure.FlightService>();
-            var appService = unity.Resolve<FlightAppService>();
 
             var flightDetails = appService.GetFlightDetails();
 
@@ -36,6 +37,7 @@ namespace BookFlight
                 Console.WriteLine("-----------------------------------------------------------------------------------------------------");
             }
             Console.ReadKey();
+
         }
     }
 }

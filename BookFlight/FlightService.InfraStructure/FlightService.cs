@@ -5,7 +5,7 @@ using static Models.FlightInformation.FlightInformation;
 
 namespace FlightService.InfraStructure
 {
-    public abstract class FlightService : IFlightService
+    public  class FlightService : IFlightService
     {
         public List<Flight> GetFlightDetails()
         {
