@@ -1,0 +1,6 @@
+E:\projects\BookFlight\bin\Debug\BookFlight.exe.config
+E:\projects\BookFlight\bin\Debug\BookFlight.exe
+E:\projects\BookFlight\bin\Debug\BookFlight.pdb
+E:\projects\BookFlight\obj\Debug\BookFlight.csprojResolveAssemblyReference.cache
+E:\projects\BookFlight\obj\Debug\BookFlight.exe
+E:\projects\BookFlight\obj\Debug\BookFlight.pdb

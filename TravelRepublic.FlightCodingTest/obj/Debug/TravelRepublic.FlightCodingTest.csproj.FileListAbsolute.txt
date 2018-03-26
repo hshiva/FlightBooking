@@ -1,0 +1,5 @@
+E:\projects\TravelRepublic.FlightCodingTest\bin\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\TravelRepublic.FlightCodingTest\bin\Debug\TravelRepublic.FlightCodingTest.pdb
+E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.pdb
+E:\projects\TravelRepublic.FlightCodingTest\obj\Debug\TravelRepublic.FlightCodingTest.csprojResolveAssemblyReference.cache

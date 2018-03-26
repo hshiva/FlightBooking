@@ -1,0 +1,16 @@
+E:\projects\BookFlight\bin\Debug\BookFlight.exe.config
+E:\projects\BookFlight\bin\Debug\BookFlight.exe
+E:\projects\BookFlight\bin\Debug\BookFlight.pdb
+E:\projects\BookFlight\bin\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\BookFlight\bin\Debug\TravelRepublic.FlightCodingTest.pdb
+E:\projects\BookFlight\obj\Debug\FlightBookingClient.csprojResolveAssemblyReference.cache
+E:\projects\BookFlight\obj\Debug\BookFlight.exe
+E:\projects\BookFlight\obj\Debug\BookFlight.pdb
+E:\projects\FlightBooking\BookFlight\bin\Debug\BookFlight.exe.config
+E:\projects\FlightBooking\BookFlight\obj\Debug\BookFlight.exe
+E:\projects\FlightBooking\BookFlight\obj\Debug\BookFlight.pdb
+E:\projects\FlightBooking\BookFlight\obj\Debug\FlightBookingClient.csprojResolveAssemblyReference.cache
+E:\projects\FlightBooking\BookFlight\bin\Debug\BookFlight.exe
+E:\projects\FlightBooking\BookFlight\bin\Debug\BookFlight.pdb
+E:\projects\FlightBooking\BookFlight\bin\Debug\TravelRepublic.FlightCodingTest.dll
+E:\projects\FlightBooking\BookFlight\bin\Debug\TravelRepublic.FlightCodingTest.pdb
